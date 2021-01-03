@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+
+       let name = prompt("What is Your name??");
+       let age = prompt("What Exactly is Your age??");
+       if (age>18) 
+       {
+           let sub = prompt("Choose Your Subject! \n Phy, Che , Math");
+           if (sub=="Phy"|| sub == "Che" || sub == "Math") 
+           {
+               alert("Wow! You Just Choose!" + sub);
+               
+           }
+           else
+           {
+               alert("You Choose Wrong Subjects");
+           }
+       }
+       else
+       {
+           alert("Sorry! You Are Below 18");
+       }
+
+       let cdel = confirm("Do You Want To Delete This???");
+       if (cdel==true) 
+       {
+           alert("Deleted Successfully!!!");
+       }
+       else
+       {
+           alert("Runtime Error!!!")
+       }
+
+
+
+    </script>
+    
+</body>
+</html>
