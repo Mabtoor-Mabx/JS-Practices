@@ -74,7 +74,7 @@
 
 //  ARRAY METHODS
 
-let arr = ['Ali', 'Asfand', 'Ahmad', 'Ahmer', 'Asgher', 'Amjad', 'Azad', 'Azadi', 'Asifa', 'Anjum'];
+// let arr = ['Ali', 'Asfand', 'Ahmad', 'Ahmer', 'Asgher', 'Amjad', 'Azad', 'Azadi', 'Asifa', 'Anjum'];
 
 // let splice = arr.splice(2,0,'Alizay');
 // let push = arr.push("Mabtoor");
@@ -118,5 +118,19 @@ let arr = ['Ali', 'Asfand', 'Ahmad', 'Ahmer', 'Asgher', 'Amjad', 'Azad', 'Azadi'
 
 
 
+// String METHODS
 
 
+let str = "MY  NAME IS MABTOOR UL SHAFIQ NAME";
+
+// console.log(str.length);
+// console.log(str.indexOf("NAME"));
+// console.log(str.lastIndexOf("NAME"));
+// console.log(str.replace("NAME", "Name"));
+// console.log(str.repeat(2));
+// console.log(str.search("NAME"));
+// console.log(str.slice(1,9));
+// console.log(str.substr(1,9));
+// console.log(str.substring(1,9));
+// console.log(str.toLowerCase());
+// console.log(str.trim());
