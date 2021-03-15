@@ -1,136 +1,73 @@
-
-//  BASIC OVERVIEW 
-
-
-// alert("Hello World");
-// console.log("Hello World");
-// // console.clear();
-// console.warn("This Is Warning");
-// console.error("This Is Error");
-// console.assert(3==4);
-// document.write("Hello World");
+let array = ["Waheed", "Waqas", "Horair", "Hasnat"];
 
 
+let choice = Number(prompt("Choose Your Option :  1- Add Name   2- Delete Name "));
 
-//  OBJECTS 
+if (choice == 1) 
+{
 
+    let position = prompt("Please Tell  Where You Want To add Name?     Start or End?  ");
+    if (position == "Start") 
+    {
+        let quantity = Number(prompt("Enter The Quantity You Want To add"));
+        for(let i=0; i<quantity; i++)
+        {
+            let name = prompt(`Enter The" ${i+1}th + Name`);
+            name = array.unshift(name);
+        }
 
-// let marks = {
-//     Ali: 76,
-//     Umer : 93,
-//     Asfand : 84,
-//     Pervaiz : 86
-// }
-
-
-// console.log(marks);
-// let arr = [21,13,241,1,4,1,2,14,1,2,1];
-// console.log(arr.sort());
-
-
-
-//  CALCULATOR IN JS
-
-
-// function Add(a,b) 
-// {
-//    console.log(a+b);   
-// }
-
-// function Sub(a,b) 
-// {
-//     console.log(a-b);   
-// }
-
-// function Mult(a,b) 
-// {
-//     console.log(a*b);   
-// }
+    }
+    else  if (position == "End") 
+    {
+        
+        let quantity = Number(prompt("Enter The Quantity You Want To add"));
+        for(let i=0; i<quantity; i++)
+        {
+            let name = prompt(`Enter The" ${i+1}th + Name`);
+            name = array.push(name);
+        }
+    }
 
 
-// function Div(a,b) 
-// {
-//     console.log(a/b);   
-// }
+  console.log(array);  
+}
 
-// let val1 = Number(prompt("Enter First Value"));
-// let val2 = Number(prompt("Enter Second Value")); 
-//  let op = prompt("Enter The Operator");
+else if (choice == 2) 
+{
 
-// if (op=="+") {
-//     Add(val1,val2)
-// }
-// else if (op=="-") {
-//     Sub(val1,val2)
-// }
-// else if (op=="*") {
-//     Mult(val1,val2)
-// }
-// else if (op=="/") {
-//     Div(val1,val2)
-// }
+    let position = prompt("Enter The Position You Want To delete Element? Start Or End");
+    if (position == "Start") 
+    {
+        let quantity = prompt("Enter The Quantity You Want To remove elements");
+        for(let i=0; i<quantity; i++)
+        {
+            
+             amount =array.shift();
+        }
 
+    }
+    else  if (position == "End") 
+    {
+        let quantity = prompt("Enter The Quantity You Want To remove elements");
+        for(let i=0; i<quantity; i++)
+        {
+            amount = array.pop();
+        }
 
+    }
 
-//  ARRAY METHODS
+console.log(array);
+    
 
-// let arr = ['Ali', 'Asfand', 'Ahmad', 'Ahmer', 'Asgher', 'Amjad', 'Azad', 'Azadi', 'Asifa', 'Anjum'];
-
-// let splice = arr.splice(2,0,'Alizay');
-// let push = arr.push("Mabtoor");
-// let pop = arr.pop();
-// let shift = arr.shift();
-// let unshift = arr.unshift("Mabx");
-// let slice = arr.slice(1,4);
-// console.log(slice);
-// let toString = arr.toString();
-// console.log(toString);
-// let length = arr.length;
-// console.log(length);
-// let sort = arr.sort();
-// console.log(sort);
-// arr[4]= "Mabx";
-// let concat = arr.concat("GOOD");
-// console.log(concat);
-// console.log(arr);
+}
 
 
 
 
 
-//  LOOPS
-
-
-// arr.forEach(function(e){console.log(e);})
-
-// for(let i=arr.length-1;i>0;i--)
-// {
-//     console.log(arr[i]);
-// }
-
-// let i=0;
-// while (i<arr.length) 
-// {
-//     console.log(arr[i]);    
-//     i++;
-// }
 
 
 
 
-// String METHODS
 
 
-let str = "MY  NAME IS MABTOOR UL SHAFIQ NAME";
-
-// console.log(str.length);
-// console.log(str.indexOf("NAME"));
-// console.log(str.lastIndexOf("NAME"));
-// console.log(str.replace("NAME", "Name"));
-// console.log(str.repeat(2));
-// console.log(str.search("NAME"));
-// console.log(str.slice(1,9));
-// console.log(str.substr(1,9));
-// console.log(str.substring(1,9));
-// console.log(str.toLowerCase());
-// console.log(str.trim());
