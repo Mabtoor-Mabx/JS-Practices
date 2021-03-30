@@ -1,0 +1,17 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.btn
+{
+    width: 10%;
+    height:40px;
+    border-radius: 2%;
+}
