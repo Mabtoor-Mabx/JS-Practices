@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+
+.head{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.time{
+    
+    text-align: center; 
+}
+.btn{
+    background-color: white ;
+    width: 20%;
+    color: black;
+}
+.settings{
+    text-align: center;
+    padding-top: 20px;
+}
