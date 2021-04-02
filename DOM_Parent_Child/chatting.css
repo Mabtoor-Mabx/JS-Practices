@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.mainhead{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.heading{
+    padding: 10px;
+}
+
+.inp{
+    margin-top: 30px;
+    
+    color: black;
+    height: 50px;
+   ;
+}
+.input{
+    width: 50%;
+    height: 50px;
+}
+.btn{
+    background-color: crimson !important;
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+}
