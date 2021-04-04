@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.form-control{
+    height: 60px;
+    background-color: #471717 !important;
+    color: white !important;
+    font-size: 20px;
+}
+.btn-primary1{
+    background-color: red;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+}
+.btn-primary
+{
+    background-color: crimson;
+    color: white; 
+    width: 24%;
+}

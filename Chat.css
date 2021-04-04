@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.form-control
+{
+    float: left;
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+}
+.btn{
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}

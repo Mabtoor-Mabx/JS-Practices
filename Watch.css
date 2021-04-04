@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.head{
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.btn0{
+    width: 32.5%;
+    background-color:tomato !important;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+
+
+.btn{
+    width: 32.5%;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    height: 40px;
+}
