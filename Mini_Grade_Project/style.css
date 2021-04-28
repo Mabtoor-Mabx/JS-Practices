@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    background-color: teal;;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.center{
+    width: 80%;
+    height: 70vh;
+    background-color:indigo 
+}
+
+
+.left{
+    text-align: center; 
+    color: white;
+}
+.form-control  {
+    text-align: center;
+    background-color: indigo;
+    border: 1px solid white !important;
+    color: white;
+   
+}
+.form-control::placeholder {
+    color: white !important;
+}
+.form-control:focus{
+    background-color: indigo;
+    color: white;
+}
+
+.btn-primary{
+    margin-top: 5%;
+    text-align: center;
+    background-color: indigo;
+    border: 1px solid white !important;
+    color: white;
+
+}
+.result{
+    color: white;
+    text-align: center;
+}
