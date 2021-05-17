@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.head{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    background-color: saddlebrown;
+    height: 60vh;
+    width: 60%;
+    margin-left:20%;
+    padding-top: 10%;
+}
