@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    position: relative;
+    text-align: center;
+}
+.contain{
+    text-align: center;
+    background-color: slategray;
+    width: 70%;
+    height: 100vh;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+.color{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.input{
+    width: 300px;
+    margin-top: 10px;
+    height: 10%;
+    border-radius: 10px;
+}
+.btn{
+    margin-top: 5px;
+    width: 200px;
+    height: 40px;
+    border-radius:10px;
+}
