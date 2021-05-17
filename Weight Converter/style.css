@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.head{
+    text-align: center;
+    
+}
+.convert{
+    background-color:seagreen;
+    width: 60%;
+    height: 70vh;
+    margin-left: 20%;
+}
+.input{
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 10%;
+    height: 50px;
+    border-radius: 10px;
+}
+.btn{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 37%;
+    height: 45px;
+}
+.btn2{
+    width: 37%;
+    height: 45px;
+}
