@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head{
+    text-align: center;
+}
+.container{
+    background-color: brown;
+    width: 60%;
+    height: 70vh;
+    margin-left: 20%;
+}
+.input{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn{
+    margin-left: 10%;
+    margin-top: 10%;
+    height: 40px;
+    width: 33%;
+}
